@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GoCardless-User App</string>
+    <string name="permission_read_phone_state_rationale">Access device info</string>
+    <string name="permissions_not_granted_read_phone_state">Permission not granted</string>
+    <string name="valid">Form is valid</string>
+    <string name="invalid">Form is invalid</string>
+    <string name="scan_with_card_io">Scan with card.io</string>
+    <string name="amt">Enter Amount(₹)</string>
+    <string name="title_activity_bottom_navigation">bottom_navigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Balance</string>
+    <string name="title_notifications">Transactions</string>
+    <string name="hello_blank_fragment">Your Current Balance</string>
+    <string name="maps">Atms</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
