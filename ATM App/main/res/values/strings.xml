@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GoCardless-ATM App</string>
+    <string name="amt">Enter Amount(₹)</string>
+    <string name="msg_sit_back">Relax! while we verify your mobile number</string>
+    <string name="lbl_enter_otp">Enter OTP</string>
+    <string name="balance">Current Balance</string>
+</resources>

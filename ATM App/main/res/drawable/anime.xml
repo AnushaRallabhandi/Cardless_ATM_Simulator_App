@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:drawable="@drawable/vector_path_check">
+  <target android:name="check_path">
+        <aapt:attr name="android:animation">
+            <set
+                android:interpolator="@android:anim/accelerate_interpolator"
+                android:ordering="sequentially"
+                android:shareInterpolator="false">
+                <!-- First animation, the short backward slash part of the check, \ -->
+                <objectAnimator
+                    android:duration="@android:integer/config_shortAnimTime"
+                    android:propertyName="pathData"
+                    android:valueFrom="M6,10 l0,0 l0,0"
+                    android:valueTo="M6,10 l4,4.5 l0,0"
+                    android:valueType="pathType" />
+
+                <!-- Second animation, the long forward slash part of the check, / -->
+                <objectAnimator
+                    android:duration="@android:integer/config_shortAnimTime"
+                    android:propertyName="pathData"
+                    android:valueFrom="M6,10 l4,4.5 l0,0"
+                    android:valueTo="M6,10 l4,4.5 l9,-8"
+                    android:valueType="pathType" />
+            </set>
+        </aapt:attr>
+    </target>
+
+</animated-vector>

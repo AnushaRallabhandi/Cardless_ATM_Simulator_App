@@ -1,0 +1,13 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportHeight="24.0"
+    android:viewportWidth="24.0">
+    <group android:name="check">
+        <path
+            android:name="check_path"
+            android:pathData="M6,10 l0,0 l0,0"
+            android:strokeColor="#48f242"
+            android:strokeWidth="2" />
+    </group>
+</vector>
