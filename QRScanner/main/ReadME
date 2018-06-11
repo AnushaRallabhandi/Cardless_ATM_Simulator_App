@@ -1,0 +1,2 @@
+The User App involves setting an app lock, registration (the first time) where details like name, mobile no. and card details are entered. It then provides 2 options for withdrawal: QR and SMS. To get the OTP and withdraw cash  through SMS, one must enter his/her mobile no. and click on activate sms and click on Verify. To withdraw cash using QR, one must click on QR button which then opens a QR scanner to scan cash on ATM app.
+Also, there are other features like viewing near by ATMs and their details, transaction history to keep track of one's transactions.
